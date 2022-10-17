@@ -11,8 +11,9 @@ export class UsersService {
   getData()
   {
 
-    // http://127.0.0.1:8000/get_model/
-    let url = "https://jsonplaceholder.typicode.com/posts";
+    // https://jsonplaceholder.typicode.com/posts
+   
+    let url = "http://127.0.0.1:8000/get_model/";
     return this.http.get(url)
   }
 }
